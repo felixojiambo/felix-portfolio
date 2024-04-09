@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+   }
+   
+
+   .nav {
+    display: flex; 
+    list-style-type: none; 
+    padding: 0;
+    margin: 0; 
+    justify-content: center; 
+   }
+
+   .nav-item {
+    margin: 0 10px; 
+   }
+   
+ 
+   .nav-link {
+    color: #6c757d; 
+    text-decoration: none;
+    padding: 10px 20px; 
+    border-radius: 4px;
+    transition: background-color 0.3s ease; 
+   }
+   
+   .nav-link:hover {
+    background-color: #e9ecef;
+    color: #343a40; 
+   }
+  
+   @media (max-width: 768px) {
+    .nav-item {
+       margin: 0 5px; 
+    }
+   }
+   
